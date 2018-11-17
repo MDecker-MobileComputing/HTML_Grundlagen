@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>	
+    <title>Aufklappbare Details</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="modernizr-custom.js"></script>
+    <!-- JavaScript-Datei enthält nur den Check auf Unterstützung für den "Details"-Tags.
+         Auf https://modernizr.com/download in das Feld "Type a browser feature"
+         den Suchstring "details" eingeben und den darauf erscheinenden Eintrag
+         "details Element" mit dem Plus-Button auswählen (siehe auch
+         den folgenden Link: https://modernizr.com/download?details-setclasses&q=details ).
+         Danach auf die Schaltfläche "Build" klicken, um eine entsprechende
+         JavaScript-Datei herunterzuladen.
+     -->
+
+	<script>
+	<!--
+        if (Modernizr.details === true) {
+            console.log("Details-Tag wird von Browser unterstützt.");
+        } else {
+            alert("Seite funktioniert nicht richtig, weil Ihr Browser das <details>-Tag nicht unterstützt!");
+        }
+	//-->
+	</script>     
+</head>
+<body>
+  <h1>Aufklappbare Details</h1>
+
+  <p>Diese Seite überprüft mit <a href="https://modernizr.com" target="_blank">Modernizr</a>
+     (JavaScript-Bibliothek unter <a href="https://modernizr.com/license/">MIT-Lizenz</a>) 
+     zur Laufzeit, ob der Browser den <code>details</code>-Tag unterstützt.
+     Wenn der Tag nicht unterstützt wird, dann wird mit einem Dialog eine Warnung ausgegeben.
+     Die Microsoft-Browser IE und Edge unterstützen diesen Tag z.B. nicht, siehe auch
+     <a href="https://caniuse.com/#search=details" target="_blank">diesen Eintrag auf <i>caniuse.com</i></a>.
+  </p>
+
+  <h2>Abkürzungen zur Android-Programmierung:</h2>
+
+  <details>
+    <summary>ADB</summary>
+    <p>Android Debug Bridge</p>
+  </details>
+
+  <details>
+      <summary>APK</summary>
+      <p>Android Package; Installations-Datei einer Android-App.</p>
+  </details>
+  
+  <details>
+      <summary>DVM</summary>
+      <p>Dalvik Virtual Machine; führt den DEX-Bytecode einer Android-App aus.</p>
+  </details>
+  
+</body>
