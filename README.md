@@ -1,4 +1,4 @@
-# HTML-Grundlagen
+# HTML-Grundlagen #
 
 This repository contains some files to demonstrate basic features of HTML.
 
@@ -7,8 +7,10 @@ clicking on the following link (thanks to [GitHub Pages](https://help.github.com
 
 https://mdecker-mobilecomputing.github.io/HTML_Grundlagen/index.html
 
+<br>
+
 ----
-# License
+## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
 for the HTML files in this repository.
