@@ -1,0 +1,22 @@
+{
+  "name": "html-grundlagen",
+  "version": "1.0.0",
+  "description": "Beispieldateien HTML",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDecker-MobileComputing/HTML_Grundlagen.git"
+  },
+  "author": "MDe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDecker-MobileComputing/HTML_Grundlagen/issues"
+  },
+  "homepage": "https://github.com/MDecker-MobileComputing/HTML_Grundlagen#readme"
+}
