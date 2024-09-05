@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Bild einbinden</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <h1>Bild in HTML einbinden</h1>
+
+  <p>In HTML-Dateien können natürlich auch Bilder eingebunden werden, z.B. die folgende Fotografie von einer Katze:</p>
+
+  <img src="bilder/cat-2934720_640.jpg" alt="Süßes Kätzchen" width="640" height="427">
+  <!--
+    Das Attribut "alt" (alternative text) wird angezeigt, wenn das Bild nicht geladen werden kann;
+    es wird auch von speziellen Programmen, die von Sehbehinderten verwendet werden (sog. Screen Reader),
+    verwendet. Außerdem verwenden Suchmaschinen den "alt"-Text, um den Inhalt der Seite zu indexieren.
+
+    Die beiden Attribute "width" und "height" sind optional und können verwendet werden, um die Größe des
+    Bildes festzulegen. Wenn nur eines der beiden Attribute angegeben wird, wird das andere Attribut automatisch
+    berechnet, um das Seitenverhältnis des Bildes zu erhalten. Diese Attribute helfen dem Browser, den
+    Platz für das Bild zu reservieren, bevor es geladen wird, und verhindern, dass der Text springt, wenn
+    das Bild geladen wird.
+   -->
+  <p>
+    Bildnachweis:
+    <a href="https://pixabay.com/photos/cat-kitten-pets-animals-housecat-2934720/" target="_blank">Bild 2934720</a>
+    auf
+    <a href="https://pixabay.com/" target="_blank">Pixabay</a>
+    von Nutzer
+    <a href="https://pixabay.com/users/kirgiz03-6995361/" target="_blank">kirgiz03</a>
+  </p>
+
+
+  <p>
+    Es ist zu beachten, dass die modernen Browser nur bestimmte Grafikformate unterstützen,
+    siehe z.B.
+    <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types" target="_blank">hier</a>.
+  </p>
+
+</body>
