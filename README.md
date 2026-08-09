@@ -10,6 +10,11 @@ https://mdecker-mobilecomputing.github.io/HTML_Grundlagen/index.html
 
 <br>
 
+Repository mit analogen Beispielen auf Englisch:
+https://github.com/MDecker-MobileComputing/HTML_Basics
+
+<br>
+
 ----
 
 ## License ##
