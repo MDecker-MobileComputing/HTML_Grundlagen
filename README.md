@@ -2,10 +2,9 @@
 
 <br>
 
-This repository contains some files to demonstrate basic features of HTML.
+Dieses Repository enthält einige Dateien, die grundlegende Funktionen von HTML veranschaulichen.
 
-The files under folder [docs/](docs) can directly viewed in your web browser by
-clicking on the following link (thanks to [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)):
+Die Dateien im Ordner [docs/](docs) können über den folgenden Link direkt in Webbrowser angezeigt werden: 
 
 https://mdecker-mobilecomputing.github.io/HTML_Grundlagen/index.html
 
